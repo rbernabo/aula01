@@ -1,0 +1,53 @@
+.menu{
+	background-color: #f1f2f6;
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+.center{
+	text-align: center;
+}
+
+.perfil{
+	width: 150pt;
+	border-radius: 50%;
+}
+
+.home{
+	background-image: url('../IMG/597.jpg');
+	background-size: cover;
+}
+
+.title{
+	font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.footer{
+	border-top: 1px solid #ccc;
+	
+}
+
+.section{
+	font-family: 'Quicksand', sans-serif;
+}
+
+#contato{
+	background: linear-gradient(to bottom right, #d0d3d4, #909497);
+	padding: 1rem;
+}	
+
+.conheca-me{
+	color: #000;
+	background-color: #d0d3d4;
+	border-color: black;
+	border-style: dashed;
+}
+
+.conheca-me:hover{
+	color: #d0d3d4;
+	background-color: #000;
+	border-color: #d0d3d4;
+	border-style: dashed;
+	box-shadow: 5px 5px 30px rgba(255,0,0,0.3);
+}

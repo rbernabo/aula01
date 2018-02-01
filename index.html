@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Curso Web</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="menu">
+			<ul class="nav justify-content-end">
+				<li class="nav-item">
+					<a href="#sobre" class="nav-link text-secondary">Sobre</a>
+				</li>
+				<li class="nav-item">
+					<a href="#portfolio" class="nav-link text-secondary">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a href="#contato" class="nav-link text-secondary">Contato</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="jumbotron home center">
+			<div class="container">
+				<h1 class="title">Curso de Web</h1>
+				<hr class="my-4">
+				<p class="lead">
+				Desenvolvimento Web para o mercado.
+				</p>
+				<a href="#" class="btn btn-primary conheca-me">Me conheça</a>
+			</div>
+		</div>
+		<div class="container">
+			<section id="sobre">
+				<h2 class="center section">Sobre</h2>
+				<div class="row mt-4">
+					<div class="col-sm-6 center">
+						<img src="IMG/perfil_raquel.jpg" class="perfil">
+					</div>
+					<div class="col-sm-6 mt-4">
+						<p class="title">Metas</p>
+						<ul>
+							<li>Fomentar o uso da web</li>
+							<li>Capacitar profissionais para o mercado</li>
+						</ul>
+						<p class="title">Prioridade</p>
+							<ol>
+								<li>Café</li>
+							</ol>
+					</div>
+				</div>
+			</section>
+		</div>
+		<section id="contato">
+			<div class="container">	
+				<h2 class="center section">Contato</h1>
+				<form>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Fulano" required="required">
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" placeholder="fulano@gmail.com">
+					</div>
+					<div>
+						<textarea class="form-control" placeholder="mensagem"></textarea>
+					</div>
+					<div class="row">
+						<div class="col-6">
+							<input type="submit" class="btn btn-primary" value="enviar">
+						</div>
+						<div class="col-6 text-right">
+							<input type="reset" class="btn btn-secondary" value="limpar">
+						</div>						
+					</div>
+				</form>
+			</div>
+		</section>
+		<footer class="mt-2">
+			<p class="center">
+				Desenvolvido com <span class="text-danger"> &hearts; </span> por Raquel Bernabó
+			</p>
+		</footer>
+	</body>
+</html>
